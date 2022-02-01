@@ -1,1 +1,1 @@
-HTML file Demo for the TechCrunch homepage website
+HTML Demo for the TechCrunch homepage website
