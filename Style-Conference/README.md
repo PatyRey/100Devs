@@ -7,4 +7,4 @@
 
 <p>This lab is a work and progress, I'm only using HTML and CSS to build the website at the moment. I will be adding JavaSript later on.</p>
 
-<p><You can see my progress <a href= https://codepen.io/patyrey/pen/PoOGNpM> here</a>.</p>
+<p>You can see my progress <a href= https://codepen.io/patyrey/pen/PoOGNpM> here</a>.</p>
