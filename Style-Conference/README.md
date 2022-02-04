@@ -6,3 +6,5 @@
 <p>working through <a href = https://learn.shayhowe.com/advanced-html-css/performance-organization/> Shay Howe </a> online lessons. </p>
 
 <p>This lab is a work and progress, I'm only using HTML and CSS to build the website at the moment. I will be adding JavaSript later on.</P>
+
+<p><You can see my progress <a href= https://codepen.io/patyrey/pen/PoOGNpM> here</a>.</p>
