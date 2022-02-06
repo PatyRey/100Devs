@@ -1,0 +1,240 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+ body{
+    font-family: 'Open Sans', sans-serif;
+    
+ }
+ h1{
+     font-weight:800;
+     line-height: 35px;
+ }
+ h2{
+    font-weight: 700; 
+ }
+ h3{
+     font-weight:600 ;
+ }
+ span{
+     font-weight: 400;
+     font-size: smaller;
+ }
+li{
+    list-style: none;
+ }
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  nav, main, aside, Section {
+      float: left;
+      width: 10%;
+      
+  }
+  .yellow{
+      color: #fdc006;
+      font-weight:700;
+    }
+  /* nav */
+  nav{
+      
+      margin: 1%;   
+     }
+  nav ul li a{
+      color: gray;
+      list-style-type: none;
+      list-style: none;
+      text-decoration: none;
+  }
+  .login{
+      position: inside;
+      font-weight: lighter;
+      margin-top: -25px; 
+  }
+      
+  nav li{
+      padding-bottom: 12px;
+      list-style-position: inside;
+      }
+    ul{
+        padding: 0;
+        font-size: 1.25em;
+    }
+
+
+  /* main */
+ 
+  main{
+      width: 50%;
+      margin:0 2%;
+      padding-right:5% ;
+    }
+
+  .main-headline{
+        height: 40%; 
+        padding: 0 2%;         
+    }
+
+    
+    
+  /* Aside */
+  
+  aside{
+      width:30%;
+      padding:1% 1.5%;
+      margin: 1% ;
+  }
+  aside img{
+      height: 25px;
+      padding-top: 5px ;
+      display: block;
+      
+  }
+  aside li{
+      list-style-position:inside ;
+      border-bottom: .5px solid lightgray;
+      height: 125px;
+      font-size: 15px;
+      line-height: 25px;
+      display: block;
+  }
+  .li-no-line{
+    border-bottom:none;
+  }
+  .move-up{       
+      margin-bottom: 1%;
+  }
+
+
+  /* section */
+
+  section{
+      width:90%;
+      float:left;
+      margin-left:14%;       
+       
+  }
+
+section.sec-one{
+    float: left;
+    display: inline;
+    width: 24%;
+    margin:0 9% 0 0 ; 
+    height: 100%;
+    margin-top: 2%;   
+      
+}
+section.sec-two{
+    float: left;
+    display: inline;
+    width: 24%;
+    margin:0 9% 0 0 ; 
+    height: 100%;
+    margin-top: 0;     
+}
+section ul li section.sections section.sec-three{
+    float: left;
+    display: inline;
+    width: 24%;
+    margin:0 9% 0 0 ; 
+    height: 100%;
+    margin-top: 0;    
+    border-bottom: none;  
+
+}
+
+
+section.sections{
+    height: 12%;
+    border-top: .5px solid lightgray;
+    border-bottom: .5px solid lightgray;
+    margin-left: 0;   
+    padding: 1% 0;
+          
+}
+
+.sections h3{
+    line-height: 25px;
+    margin-top:0;
+    margin-bottom: 0;
+    font-weight: bolder; 
+    }
+
+.sections p{
+    font-size: small;
+    color: gray;
+    line-height: 20px; 
+    margin-top: 0;
+}
+
+section .sections span{
+    font-size: x-small;
+    font-weight: medium;
+    margin:0;
+    padding: 0;
+}
+section .sections p.date{
+    font-size: x-small;
+    font-weight: medium;
+    columns: gray;
+    margin-top: 0;
+}
+
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+  /* images */
+
+  #main-image{
+    max-height:415px;
+    width:auto;
+    display: block;  
+    margin: 1% 0 2% 0;                      
+}
+
+  #tc-mid{
+    height: 29px;
+    display: block; 
+}
+#tc-small{
+    height: 20px;
+    display: block;
+ }
+ 
+ #dispo{
+    width: 300px;
+     margin-top: 0; 
+     
+ }
+ #pc{
+    width: 300px;
+     margin-top: 0; 
+ }
+ #snap{
+    width: 300px;
+     margin-top: 0; 
+ }
+
+
+
+ 
