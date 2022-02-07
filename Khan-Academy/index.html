@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Khan Academy</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    
 </head>
 <body>
     <!--------Navigation--------->
@@ -13,11 +15,7 @@
             <div class="header">
                 <ul style="list-style: none;">
                     <li>             
-                        <select id="More-options">
-                            <option value="More">Courses </option>
-                            <option value="Math">Math</option>
-                            <option value="Test-Prep">Test-Prep</option>
-                        </select>                
+                        <a href="#">Courses &#9660</a>
                     </li>
                     <li>
                         <form> <input type="text" id="search" placeholder="Search &#128269;"></form>
@@ -25,7 +23,7 @@
                 </ul>
             </div>
             <div class="header">
-                <a href="https://www.khanacademy.org/"><img src="assets/logo.png" alt="logo"></a>
+                <a id="logo" href="https://www.khanacademy.org/"><img src="assets/logo.png" alt="logo"></a>
             </div>
             <div class="header">
                 <ul>
@@ -38,32 +36,31 @@
     </header>
 
     <!--------Main/focal point--------->
-    <section class="center">
-        <div>
-            <img src="assets/main-image.png" alt="kids studying">
-        </div>
-        <div>
+    <main class="center-section">
+        
+        <section class="center">
+            <img class="kids" src="assets/main-image.png" alt="kids studying">
+        </section>
+        
+        <section class="center-two">
             <h1>For every student,</h1>
             <h1>every classroom.</h1>
             <h1>Real results.</h1>
-            <img src="assets/green-lines.png" alt="lines">
+            <img id="green-lines" src="assets/green-lines.png" alt="lines">
             <p>We're a nonprofit with the mission to provide a free, world-class </p>
             <p>education for anyone, anywhere.</p>
-            <nav>
-                <ul style="list-style: none">
-                    <li><button type="button"><a href="https://www.khanacademy.org/signup"></a>Learners</button></li>
-                    <li><button type="button"> <a href="https://www.khanacademy.org/signup?isteacher=1"></a>Teachers</button></li>
-                    <li><button type="button"> <a href="https://districts.khanacademy.org/"></a>District</button></li>
-                    <li><button type="button"><a href="https://www.khanacademy.org/signup?isparent=1"></a>Parents</button></li>
-                </ul>
+            <nav class="center-nav">                
+                    <button type="button"><a href="https://www.khanacademy.org/signup"></a>Learners</button>
+                    <button type="button"> <a href="https://www.khanacademy.org/signup?isteacher=1"></a>Teachers</button>
+                    <button type="button"> <a href="https://districts.khanacademy.org/"></a>District</button>
+                    <button type="button"><a href="https://www.khanacademy.org/signup?isparent=1"></a>Parents</button>
+                
             </nav>
-        </div>
-    </section>
+        </section>
+    </main>
      
     <!--------bottom of the page--------->
-    <section class="bottom">
-        <h2>Why Khan Academy</h2>
-    </section>
+    
     
 </body>
 </html>

@@ -1,0 +1,155 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+
+/******************************************
+Base Styles
+*******************************************/
+li, nav, div{
+    float: left;
+    list-style: none;
+    list-style-type: none;
+    
+    }
+    h3, h4, h5, h6{
+        font-family: 'Lato', 'Noto Sans', 'Helvetica', 'Corbel', sans-serif, 'Helvetica', 'Corbel', sans-serif;
+        font-weight: bold;
+    }
+    p{
+        font-family: 'Lato', 'Noto Sans', 'Helvetica', 'Corbel', sans-serif, 'Helvetica', 'Corbel', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 15px;
+    }
+
+
+
+/**************************************************
+Header
+***************************************************/
+
+header > nav{
+    height: 50px;
+    margin: 0 20px;    
+    border-bottom: .5px solid lightgray;
+    width: 100%;
+    color: #1865f2 !important;
+    font-family: 'Lato', 'Noto Sans', 'Helvetica', 'Corbel', sans-serif, 'Helvetica', 'Corbel', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 900;
+    clear: both;
+    padding-left: 5%;
+    align-items: center;
+    padding-bottom: .5%;
+}
+
+nav div{
+    float: left;
+}
+
+nav div{
+    width: 33.33%;
+}
+
+div ul li {
+    width: 20%;
+   
+
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #1865f2 !important;
+}
+
+
+/**************************************************
+Layout
+***************************************************/
+
+/*  main **/
+
+main > section{    
+    float: left;
+    width: 50%; 
+    height: 600px;    
+    padding-top: 4%;
+    
+ }
+
+
+
+section img.kids{
+    height: 550px ;
+    padding: 0 0 2% 34% ;
+    margin-bottom: 5%;
+}
+section img#green-lines{
+    height: 24px ;
+}
+
+section > h1{
+    font-weight: 500;
+    font-family:serif;
+    line-height: 15px;
+    color: rgb(24, 24, 24);
+    font-size: 55px;  
+    margin-bottom: 1.5%;  
+}
+section.center-two{
+    padding-top: 8%;    
+}
+.center-nav{
+    margin: 2% 0;
+}
+
+
+button{
+    background-color: #1865f2;
+    margin: 0 10px 0 0;
+    border: none;
+    color: white;
+    font-size: medium;
+    height: 40px;
+    width: 100px;
+    clear: both;
+    list-style-position: inside ;
+    list-style-type: none;
+    border-radius: 5px;    
+    display: inline;    
+
+}
+
+
+
+
+
+
+/******************************************
+Additional Style
+*******************************************/
+#logo img{
+    display: inline-block;
+    height: 40px;
+    padding-top: 1.5%;  
+    padding-left: 12%;  
+}
+
+
+
