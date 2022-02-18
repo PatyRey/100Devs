@@ -1,0 +1,370 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+/*
+  color: #252d3d;
+  color: #dee0e9;
+  color: #f8f9fb;
+  color: #323642;
+  #141927  #1d2635 
+  .menuLeft
+  .gray
+  .btns
+  .white
+  .blueBox
+  .style01
+  .blueB
+  .darkBlue
+  .lightGray
+  .grayBigBox
+  .whiteRound
+  .sixLayout
+  .grayCircle
+
+
+*/
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+h1, h2, h3, h4, p, span, a, li, h5 {
+  font-family:"roboto", sans-serif;
+}
+p{
+  font-weight: lighter;
+  padding-bottom: 65px;
+}
+span{
+  font-size: 1rem;
+}
+
+h1{
+  line-height: 150%;
+  font-weight: 400;
+}
+
+ul{
+  list-style: none;
+  list-style-position:inside;
+ }
+
+li{
+  float: left;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+a.btns{  
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  }
+
+.white{
+  background: #ffffff;
+  color: #252d3d;  
+}
+.blueB{
+  background:#252d3d;
+  color: white  
+}
+
+.darkBlue{
+  background: #252d3d;;
+  color: white;
+}
+
+.lightGray{
+  background: #dee0e9;
+  color: #252d3d;
+}
+
+.gray{
+  background:  #323642;
+  color: white;
+ }
+
+.blueBox{
+  background: rgb(29,38,53);  
+  padding: 2% 5%;
+  border: 10px solid  rgb(29,38,53);
+}
+
+.grayBox{
+  background-color: #dee0e9;
+  padding:35% 38% ;
+  border: 20px solid white;
+  border-radius: 5%;
+  position: relative;
+  top: 70px; 
+  box-shadow: 1px 5px 25px rgba(78, 78, 78, 0.205);
+}
+.style01{
+  line-height: 200%;
+  padding: 6% 12% 2% 10%;
+  }
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Main */
+
+.menuLeft{
+  width: 1.5%;
+  float: left;  
+}
+
+header, nav, main{
+  margin: 0;
+  padding: 1.5% 1.5%;  
+  background: linear-gradient(90deg, rgba(29,38,53,1) 33%, 
+  rgba(20,25,39,1) 100%);
+  color: white;
+}
+
+nav ul{
+  padding-left: 60%;
+}
+nav li{
+  padding-right: 5%;
+  font-size: smaller;
+}
+header, main{
+  background: linear-gradient(90deg, rgba(29,38,53,1) 33%, 
+  rgba(20,25,39,1) 100%);
+}
+main{
+  float: left;
+  width: 100%;
+}
+
+main section{
+  width: 50%;
+  float: left;
+  margin: 0;
+  padding: 5% 7% 0 7%;
+}
+main section+section{  
+  margin-bottom:0 ;
+  padding-bottom: 0; 
+}
+
+/* Body */
+
+div.logos{
+  float: left;
+  padding: 3% 0;
+  margin: 4% 0 3% 27%;
+  
+}
+div a img{
+  width: 12.25%;
+  padding: 0 0 0 9%;
+}
+
+.splitSection{
+  float: left;
+  width: 100%;
+ 
+}
+section.splitSection{
+  width: 100%;
+  float: left;
+  margin: 5% 1%;    
+}
+
+section.splitSection section {
+  width: 40%;
+  float: left; 
+  margin: 2% 1% 2% 5% ;    
+}
+
+.style02{ 
+  line-height: 200%;
+  padding: 1% 5% 1% 10.5%;
+  float: left;
+  margin: 4% 0 1% 0;
+  
+}
+
+section.fourLayouts{
+  float: left;
+  background-color: white;
+  box-shadow: 1px 5px 25px rgba(78, 78, 78, 0.205);
+  margin: 2%;   
+}
+
+.fourLayouts img{
+  padding: 20% 1% 20% 1%;
+  width: 30%;
+  margin: 1%;  
+  }
+
+div.blue01{
+  background-color: #252d3d;  
+}
+
+div.lightg{
+  background-color: #dee0e8; 
+}
+
+.fourLayouts div{
+  text-align: center;  
+  align-items: center;
+  justify-content: center;  
+}
+.fourLayouts h5, .fourLayouts p{
+  text-align: center;  
+  align-items: center;
+  justify-content: center; 
+  padding: .5% 3%;
+  font-size: small;
+}
+.grayBigBox{
+  width: 80%;
+  background-color: #dee0e9 ;
+  padding: 15%;
+}
+.splitSection img.whiteImage{
+  background-color:#181c2b ;
+  padding: 20%;
+} 
+
+section.style03 h2, section.style03 p{
+  text-align: center;  
+  align-items: center;
+  justify-content: center;  
+  padding: 1% 25%;
+  margin: 0;
+  line-height: 200%;
+}
+section.style03{
+  padding: 3% 0;
+}
+
+.style04 p{
+  line-height: 200%;
+  padding: 2% 3%;
+  }
+  .style04 li{
+    list-style-type: square;
+   }
+   .style04 h3{
+     display: inline-block;
+     margin-top: 60%;     
+   }
+   .centerBtn{
+    justify-content: center;  
+    text-align: center;      
+   }
+   .style05{     
+    display: inline-block;
+    margin:10% 70% 10% 5% ; 
+    font-weight:300;
+   }
+   .style05 h2{
+     font-weight: 400;
+     font-size:xx-large;
+   } 
+
+  .sixLayout{
+    width: 100%;
+    float: left;
+    background: linear-gradient(90deg, rgba(29,38,53,1) 33%, 
+    rgba(20,25,39,1) 100%);
+    padding: 2%;
+    margin: 0;
+  }
+  .sixLayout section.whiteRound{
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    margin:1.5%;    
+    float: left;    
+  }
+  .whiteRound {
+   padding: 1% 2%;
+   line-height: 150%;
+  }
+
+  .style06{     
+    display: inline-block;
+    margin:3% 10% ; 
+    font-weight:300;
+    text-align: center;
+    line-height: 150%;
+   }
+   .style06 h2{
+     font-weight: 200;    
+     line-height: 150%;
+     font-size: xx-large;
+   }
+
+   .splitSection02{
+    float: left;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(29,38,53,1) 33%, 
+    rgba(20,25,39,1) 100%);
+   }
+
+   section.splitSection02{
+    width: 100%;
+    float: left;
+    margin: 0;    
+    color: white;
+  }
+
+  section.splitSection02 section {
+    width: 45%;
+    float: left;       
+    padding: 1% 5%;
+    margin: 1.5% 3% 0 3%;
+  }
+
+   .splitSection02 section+section{
+    margin: 1% ;
+    padding: 3% 7%;       
+  }
+  .splitSection02 a{
+    margin-left: 5%;
+  }
+  footer section{
+    float: left;
+    width: 10% ;
+    text-align: center;
+    margin: 3%;
+    font-weight: 300;
+  }
+  footer section li{
+    line-height: 200%;
+  }
+  
+   
+  
+ 
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
