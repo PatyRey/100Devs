@@ -1,0 +1,223 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+h1, h2, h3, h4, p, a, span, button, form{
+  color:#344657 ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+
+/******************************************
+/* Header
+/*******************************************/
+.icon{
+  visibility: hidden;
+}
+
+header{
+  width: 100%;
+  float: left;
+  }
+nav.navi h2{
+  float: left;
+  width: 20%;
+  padding-left: 2%;
+  padding-right: 15%;  
+  margin: 1.5% 10% 2% 3%;
+  }
+
+nav.navi div a{
+  float: left;
+  width: 10%;
+  padding-top: 2%;
+}
+nav.navi button{
+  float: left;
+  margin-left:18% ;
+  margin-top:1.5% ;
+  background-color: #344657;
+  color: white;
+  border: none;
+  padding: .5% 1.5%;
+  font-size: small;
+}
+hr{
+  visibility: hidden;
+}
+/******************************************
+/* Main
+/*******************************************/
+
+main{ 
+  float: left;
+  background-color: #f6f9fc;
+  margin: 0;
+  padding: 2% 0;
+}
+main section{
+  width: 50%;
+  float: left;
+}
+section.main{
+  padding: 2% 10%;
+}
+section.main h1{
+  font-size:xxx-large;
+  font-weight: 900;
+}
+
+main section img{
+  width: 100%;
+  float: left;
+}
+
+div.form{  
+  width: 100%;
+  float: left;
+  padding: 0;
+}
+form{
+  float: left;
+  color: #f6f9fc;
+  
+}
+::-webkit-input-placeholder { 
+  color:#585a5c;
+  background: #cbd1d8;
+}
+input {
+  background: #cbd1d8;
+  height: 32px;
+  width:100%;
+  border: none;
+  padding-left: 5%;
+  margin-bottom: 10%;
+}
+section.main div a{
+  float: left;
+  background-color: #344657;
+  color: white;
+  border: none;
+  padding: 8.5px 20px;
+  font-size: small;  
+}
+
+section.second{
+  width: 100%;
+  height: auto;  
+  padding-top: 35%;
+  background-color: #f6f9fc;
+}
+section.second section{
+  width: 25%;
+  padding: 5%;
+  float: left;
+  background-color: #f6f9fc;
+}
+section.second section img{
+  width: 30px;
+}
+section.second section a{
+  font-weight: bold;
+}
+section.main p{
+  margin-top: 20%;
+}
+
+/******************************************
+/* Bottom
+/*******************************************/
+section.bottom{
+  margin-top: 20%;
+  padding-top: 18%;
+  padding-left: 5%;
+  margin-right: 60%;
+  font-size: x-large;
+}
+section.bottom p{
+  color: #a9afb6;
+  font-size: medium;
+}
+
+@media only screen and (max-width: 730px){  /* i-pad */
+  
+  .icon{
+    float: left;
+    visibility: visible;
+    margin: 3% 0 0 5%;    
+  }  
+
+  input {
+  
+    height: 32px;
+    width: 300px; 
+  }  
+     
+  nav.navi button{
+    visibility:hidden;    
+  }
+ 
+  nav.navi div a { 
+    visibility:hidden;
+   }
+
+   hr{
+     margin-top: 0;
+    visibility: visible;
+    
+  }
+
+main section {        
+    float: none;
+    width: 100%;
+    display: block;         
+  } 
+  main section img{  
+    float: none;
+    width: 100%;
+    display: block;          
+  }
+  section.second section{
+    float: none;
+    width: 100%;
+    display: block; 
+  }
+  form{
+    float: none;
+    width: 100%;
+    display: block;
+  }
+  section.main div a{
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+    font-size: medium;
+  }
+  input {
+    width: 100%;
+    margin-bottom: 1%;
+  }
+
+}
