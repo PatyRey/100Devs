@@ -1,4 +1,4 @@
 # Web-Develpment 
-Collection of my all my projects and labs from #100Devs
+Collection of my projects and labs with #100Devs
 
 
